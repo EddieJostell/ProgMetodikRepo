@@ -1,0 +1,82 @@
+====== PROGRAMMERINGSMETODIK 28-9-2016 ========
+
+UPPGIFT 1
+
+START   
+Kom på vad du vill äta  
+Kontrollera kylskåp och frysboxen.  
+Vill sambon äta det du vill äta?   
+Är någon alergisk mot den aktuella måltiden?  
+Bör du kanske bara köra på onlinepizza istället?  
+Tillaga/Vänta på maten.  
+Ät 
+STOP
+
+// Function vad ska jag äta ? 
+var innerFridge = ["chicken","tomataoooos","salami","pasta"];
+
+var allergies=false
+
+function OnlinePizza(money){
+    
+    if (money >= 100)
+        {return food}
+    else 
+        {dinner();};
+}
+
+function dinner () {
+    var GfMode=true
+    var myMode=false
+    var store;
+if (myMode==true && GfMode==true && allergies==false)
+{makeFood(innerFridge[])}
+else if (allergies == true && myMode == true) {
+    store();
+}
+
+ else 
+     {var stålars = prompt("Hur mycket pengar har du?")
+OnlinePizza(stålars);}
+
+
+}
+
+function store(food[], friendlyFood[]) {
+
+if (allergies == true) {
+    return friendlyFood[];
+}
+else {
+    return food[];
+}
+
+=========================================================================================
+
+UPPGIFT 2
+
+
+//Function 6 tärningar, Funktion som slår 6 tärningar och skriver ut resultatet av tärningarna.
+
+//START
+//Funktion sixDice som som ska rulla 6 tärningar
+//Variabel för våra tärningar
+//for loop för att iterera tärningsslagen
+//I loopen slås 6 tärningsvärde fram
+//som adderas på varandra.
+//Resultatet skrivs ut i console.
+//STOP
+
+
+function sixDice(){
+var dice=0
+for (i=0;i<6;i++)
+{
+dice+=Math.ceil(Math.random()*6);
+
+}
+console.log ("Rolling 6 dices!")
+
+console.log("You got "+dice+"!");
+}
+sixDice();
