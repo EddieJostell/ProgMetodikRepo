@@ -25,3 +25,4 @@ console.log ("Rolling 6 dices!")
 console.log("You got "+dice+"!");
 }
 sixDice();
+NEIN NEIN NEIN
