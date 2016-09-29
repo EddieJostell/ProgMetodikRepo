@@ -26,4 +26,4 @@ console.log("You got "+dice+"!");
 }
 sixDice();
 
-NEINNEINEIENINEINEINEIENEINEINEIENINEINE
+
