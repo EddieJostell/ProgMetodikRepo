@@ -26,3 +26,4 @@ console.log("You got "+dice+"!");
 }
 sixDice();
 NEIN NEIN NEIN
+Fnatic är sämst i sverige
