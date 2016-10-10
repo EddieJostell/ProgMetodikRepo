@@ -1,0 +1,62 @@
+ALGORITMER 
+ 
+ Effektiviteten bedöms i tre olika avseenden:
+
+1 - Den algoritm är effektivast som löser problemet på kortast tid.
+
+    För att mäta tiden kan det därför vara nödvändigt att testköra varje algoritm på en hel uppsättning olika problem och därefter poängsätta varje algoritm efter hur den skötte sig jämfört med de övriga.
+
+2 - Den algoritm är effektivast, som löser problemet med minst resurser.
+
+    I datorsammanhang handlar det oftast om hur mycket minne algoritmen tar i anspråk för att lösa ett problem.
+
+3 - Den algoritm är effektivast, som är minst komplicerad.
+
+    Detta är oftast (men inte alltid) liktydigt med mängden kod, som går åt till att beskriva algoritmen. 
+ 
+ EXEMPEL:
+ 
+ LAMPAN FUNGERAR INTE
+          |
+		  |
+		  ÄR LAMPAN    NEJ
+		  INKOPPLAD? ------> KOPPLA IN LAMPAN
+		  |
+		  | JA
+		  |
+          ÄR GLÖDLAMPAN   JA
+		  UTBRÄND?---------------> ERSÄTT GLÖDLAMPAN
+		  |
+		  | NEJ
+		  |
+           KÖP EN NY LAMPA
+		   
+		   
+SÖKNING 
+
+SORTERING
+
+TVÅ FUNKTIONER SOM GÅR ATT ANVÄNDAS FÖR ATT SORTERA
+
+BUBBLE OCH INSERTION
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+ ----------------------------------
+ 
+ QUEUE - först i kön, först "betjänad".
+ [0,1,2]
+ 
+ * shift
+ * push
+ 
+ 
+ STACK - sist i kön, först "betjänad".
+ [0,1,2]
+ 
+ * pop
+ * push
